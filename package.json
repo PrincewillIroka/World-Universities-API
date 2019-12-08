@@ -17,6 +17,7 @@
     "hapi": "^18.1.0"
   },
   "devDependencies": {
+    "ip": "^1.1.5",
     "nodemon": "^2.0.1"
   }
 }

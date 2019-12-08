@@ -1,9 +1,12 @@
 const hapi = require('@hapi/hapi')
 const Inert = require('@hapi/inert')
+const ip = require("ip");
 require('dotenv').config()
+const routes = require('./routes')
 
 const server = hapi.server({
     port: process.env.PORT,
+    host: process.env.NODE_ENV == 'dev' ? ip.address() : null,
     routes: {
         cors: {
             origin: ['*'],
@@ -28,6 +31,6 @@ const init = async () => {
     })
 }
 
-//   server.route(routes)
+server.route(routes)
 
 init()
