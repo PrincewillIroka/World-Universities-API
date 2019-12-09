@@ -6,7 +6,7 @@ const routes = require('./routes')
 
 const server = hapi.server({
     port: process.env.PORT,
-    host: process.env.NODE_ENV == 'dev' ? ip.address() : null,
+    host: process.env.NODE_ENV == 'dev' ? ip.address() : '0.0.0.0',
     routes: {
         cors: {
             origin: ['*'],
