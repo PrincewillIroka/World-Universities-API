@@ -30,6 +30,12 @@ const getUniversitiesByCountry = {
     }
 }
 
+const getHomePage = {
+    handler: async (request, response) => {
+        return 'Welcome to World Universities API'
+    }
+}
+
 
 routes = [
     {
@@ -41,6 +47,11 @@ routes = [
         method: 'POST',
         path: '/getUniversitiesByCountry',
         config: getUniversitiesByCountry
+    },
+    {
+        method: 'GET',
+        path: '/',
+        config: getHomePage
     }
 ]
 module.exports = routes
