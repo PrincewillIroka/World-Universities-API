@@ -13,7 +13,7 @@ const getUniversitiesByName = {
         if (universitiesData) {
             // const newUni = universitiesData.filter(uData => uData.name.startsWith(name))
             const newUni = universitiesData.filter(uData => uData.name.includes(name))
-            value = newUni.splice(index, (index + number))
+            value = newUni.slice(index, (index + number))
         }
         return value
     }
@@ -24,7 +24,7 @@ const getUniversitiesByCountry = {
         let { country, index, number } = request.payload, value = []
         if (universitiesData) {
             const newUni = universitiesData.filter(uData => uData.country.startsWith(country))
-            value = newUni.splice(index, (index + number))
+            value = newUni.slice(index, (index + number))
         }
         return value
     }
