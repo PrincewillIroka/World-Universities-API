@@ -34050,7 +34050,7 @@
     ],
     "country": "Croatia"
   },
-    {
+  {
     "web_pages": [
       "http://www.algebra.hr/"
     ],
@@ -76390,25 +76390,25 @@
   },
   {
     "web_pages": [
-      "http://www.abiapoly.edu.ng/"
+      "https://www.abiapoly-edu.net/"
     ],
     "name": "Abia State Polytechnic",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "abiapoly.edu.ng"
+      "abiapoly-edu.net"
     ],
     "country": "Nigeria"
   },
   {
     "web_pages": [
-      "http://www.absu.edu.ng/"
+      "http://abiastateuniversity.edu.ng/"
     ],
     "name": "Abia State University",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "absu.edu.ng"
+      "abiastateuniversity.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -76498,13 +76498,13 @@
   },
   {
     "web_pages": [
-      "http://www.akutech.edu.ng/"
+      "http://www.aksu.edu.ng/"
     ],
     "name": "Akwa Ibom State University of Technology",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "akutech.edu.ng"
+      "aksu.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -76522,13 +76522,13 @@
   },
   {
     "web_pages": [
-      "http://www.ansu.edu.ng/"
+      "http://www.coou.edu.ng/"
     ],
     "name": "Anambra State University of Science and Technology",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "ansu.edu.ng"
+      "coou.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -76570,13 +76570,13 @@
   },
   {
     "web_pages": [
-      "http://www.aust-abuja.org/"
+      "http://www.aust.edu.ng/"
     ],
     "name": "African University of Science and Technology",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "aust-abuja.org"
+      "aust.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -76726,13 +76726,13 @@
   },
   {
     "web_pages": [
-      "http://www.coeoju.com/"
+      "http://www.coeoju.edu.ng/"
     ],
     "name": "College of Education Oju",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "coeoju.com"
+      "coeoju.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -76762,7 +76762,7 @@
   },
   {
     "web_pages": [
-      "http://www.crescent-university.edu.ng/"
+      "http://crescent-university.edu.ng/"
     ],
     "name": "Crescent University",
     "alpha_two_code": "NG",
@@ -76786,13 +76786,13 @@
   },
   {
     "web_pages": [
-      "http://www.ebsu-edu.net/"
+      "http://www.ebsu.edu.ng/"
     ],
     "name": "Ebonyi State University",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "ebsu-edu.net"
+      "ebsu.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -76822,37 +76822,37 @@
   },
   {
     "web_pages": [
-      "http://www.fcetakoka-edu.net/"
+      "https://nce.fcet-akoka.edu.ng/portal"
     ],
     "name": "Federal College Of Education (Technical), Akoka",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "fcetakoka-edu.net"
+      "nce.fcet-akoka.edu.ng/portal"
     ],
     "country": "Nigeria"
   },
   {
     "web_pages": [
-      "http://www.fedpoffa.edu.ng/"
+      "http://www.fpo.edu.ng/"
     ],
     "name": "The Federal Polytechnic Offa",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "fedpoffa.edu.ng"
+      "fpo.edu.ng"
     ],
     "country": "Nigeria"
   },
   {
     "web_pages": [
-      "http://www.fountainuniversity.edu.ng/"
+      "http://www.fuo.edu.ng/"
     ],
     "name": "Fountain University",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "fountainuniversity.edu.ng"
+      "fuo.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -105356,6 +105356,18 @@
     "state-province": null,
     "domains": [
       "trenholmstate.edu"
+    ],
+    "country": "United States"
+  },
+  {
+    "web_pages": [
+      "https://www.harvard.edu/"
+    ],
+    "name": "Harvard University",
+    "alpha_two_code": "US",
+    "state-province": null,
+    "domains": [
+      "harvard.edu"
     ],
     "country": "United States"
   },
