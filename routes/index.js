@@ -12,7 +12,8 @@ const getUniversitiesByName = {
         let { name, index, number } = request.payload, value = []
         if (universitiesData) {
             // const newUni = universitiesData.filter(uData => uData.name.startsWith(name))
-            const newUni = universitiesData.filter(uData => uData.name.toLowerCase().includes(name.toLowerCase()))
+            const newUni = universitiesData.filter(uData => uData.name.toLowerCase().includes(name.toLowerCase()) || 
+                                                                uData.name.toLowerCase().includes(name.toLowerCase()))
             value = newUni.slice(index, (index + number))
         }
         return value

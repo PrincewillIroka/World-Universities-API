@@ -76407,6 +76407,7 @@
       "http://abiastateuniversity.edu.ng/"
     ],
     "name": "Abia State University",
+    "alias": "ABSU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76419,6 +76420,7 @@
       "http://www.abuad.edu.ng/"
     ],
     "name": "Afe Babalola University",
+    "alias": "ABUAD",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76431,6 +76433,7 @@
       "http://www.abu.edu.ng/"
     ],
     "name": "Ahmadu Bello University",
+    "alias": "ABU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76467,6 +76470,7 @@
       "http://www.acu.edu.ng/"
     ],
     "name": "Ajayi Crowther University",
+    "alias": "ACU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76491,6 +76495,7 @@
       "http://www.adsu.edu.ng/"
     ],
     "name": "Adamawa State University",
+    "alias": "ADSU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76503,6 +76508,7 @@
       "http://www.aksu.edu.ng/"
     ],
     "name": "Akwa Ibom State University of Technology",
+    "alias": "AKSU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76527,6 +76533,7 @@
       "http://www.coou.edu.ng/"
     ],
     "name": "Anambra State University of Science and Technology",
+    "alias": "ANSU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76539,6 +76546,7 @@
       "http://www.atbu.edu.ng/"
     ],
     "name": "Abubakar Tafawa Balewa University",
+    "alias": "ABTU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76563,6 +76571,7 @@
       "http://www.aun.edu.ng/"
     ],
     "name": "ABTI American University of Nigeria",
+    "alias": "AUN",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76599,6 +76608,7 @@
       "http://www.basug.edu.ng/"
     ],
     "name": "Bauchi State University, Gadau",
+    "alias": "BASUG",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76647,6 +76657,7 @@
       "http://www.biu.edu.ng/"
     ],
     "name": "Benson Idahosa University",
+    "alias": "BIU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76671,6 +76682,7 @@
       "http://www.bsum.edu.ng/"
     ],
     "name": "Benue State University",
+    "alias": "BSUM",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76683,6 +76695,7 @@
       "http://www.buk.edu.ng/"
     ],
     "name": "Bayero University Kano",
+    "alias": "BUK",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76779,6 +76792,7 @@
       "http://www.crutech.edu.ng/"
     ],
     "name": "Cross River University of Science and Technology",
+    "alias": "CRUTECH",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76803,6 +76817,7 @@
       "http://www.eksu.edu.ng/"
     ],
     "name": "Ekiti State University",
+    "alias": "EKSU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76815,6 +76830,7 @@
       "http://www.esut.edu.ng/"
     ],
     "name": "Enugu State University of Science and Technology",
+    "alias": "ESUT",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76851,6 +76867,7 @@
       "http://www.fuo.edu.ng/"
     ],
     "name": "Fountain University",
+    "alias": "FUO",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76863,6 +76880,7 @@
       "http://www.fupre.edu.ng/"
     ],
     "name": "Federal University of Petroleum Resources",
+    "alias": "FUPRE",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76875,6 +76893,7 @@
       "http://www.futa.edu.ng/"
     ],
     "name": "Federal University of Technology, Akure",
+    "alias": "FUTA",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76887,6 +76906,7 @@
       "http://www.futminna.edu.ng/"
     ],
     "name": "Federal University of Technology, Minna",
+    "alias": "FUTMINNA",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76899,6 +76919,7 @@
       "http://www.futo.edu.ng/"
     ],
     "name": "Federal University of Technology, Owerri",
+    "alias": "FUTO",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76911,6 +76932,7 @@
       "http://www.futy.edu.ng/"
     ],
     "name": "Federal University of Technology, Yola",
+    "alias": "FUTY",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76947,6 +76969,7 @@
       "http://www.gsu.edu.ng/"
     ],
     "name": "Gombe State University",
+    "alias": "GSU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76959,6 +76982,7 @@
       "http://www.ibbu.edu.ng/"
     ],
     "name": "Ibrahim Babangida University",
+    "alias": "IBBU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76971,6 +76995,7 @@
       "http://www.imsu.edu.ng/"
     ],
     "name": "Imo State University",
+    "alias": "IMSU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -76995,6 +77020,7 @@
       "http://www.jabu.edu.ng/"
     ],
     "name": "Joseph Ayo Babalola University",
+    "alias": "JABU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77007,6 +77033,7 @@
       "http://www.kasuportal.net/"
     ],
     "name": "Kaduna State University",
+    "alias": "KASU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77019,6 +77046,7 @@
       "http://www.ksuportal.edu.ng/"
     ],
     "name": "Kogi State University",
+    "alias": "KSU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77031,6 +77059,7 @@
       "http://www.ksusta.edu.ng/"
     ],
     "name": "Kebbi State University of Science and Technology",
+    "alias": "KSUSTA",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77043,6 +77072,7 @@
       "http://www.kuk.edu.ng/"
     ],
     "name": "Katsina University",
+    "alias": "KUK",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77055,6 +77085,7 @@
       "http://www.kustwudil.edu.ng/"
     ],
     "name": "Kano State University of Technology Wudil",
+    "alias": "KUST",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77067,6 +77098,7 @@
       "http://www.kwarapoly.edu.ng/"
     ],
     "name": "Kwara State Polytecnic",
+    "alias": "Kwara Poly",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77091,6 +77123,7 @@
       "http://www.kwasu.edu.ng/"
     ],
     "name": "Kwara State University",
+    "alias": "KWASU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77103,6 +77136,7 @@
       "http://www.mylaspotech.edu.ng/"
     ],
     "name": "Lagos State Polytechnic",
+    "alias": "LASPOTECH",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77115,6 +77149,7 @@
       "http://www.lasunigeria.org/"
     ],
     "name": "Lagos State University",
+    "alias": "LASU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77127,6 +77162,7 @@
       "http://www.lautech.edu.ng/"
     ],
     "name": "Ladoke Akintola University of Technology",
+    "alias": "LAUTECH",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77139,6 +77175,7 @@
       "http://www.lcu.edu.ng/"
     ],
     "name": "Lead City University of Ibadan",
+    "alias": "LCU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77175,6 +77212,7 @@
       "http://www.mouau.edu.ng/"
     ],
     "name": "Michael Okpara University of Agriculture",
+    "alias": "MOUAU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77187,6 +77225,7 @@
       "http://www.mylcp.net/"
     ],
     "name": "Lagos City Polytechnic",
+    "alias": "LCP",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77199,6 +77238,7 @@
       "http://www.nda.edu.ng/"
     ],
     "name": "Nigerian Defence Academy",
+    "alias": "NDA",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77223,6 +77263,7 @@
       "http://www.nou.edu.ng/"
     ],
     "name": "National Open University of Nigeria",
+    "alias": "NOU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77247,6 +77288,7 @@
       "http://www.nsuk.edu.ng/"
     ],
     "name": "Nasarawa State University Keffi",
+    "alias": "NSUK",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77259,6 +77301,7 @@
       "http://www.ntnu.edu.ng/"
     ],
     "name": "Nigerian Turkish Nile University",
+    "alias": "NTNU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77271,6 +77314,7 @@
       "http://www.oauife.edu.ng/"
     ],
     "name": "Obafemi Awolowo University Ile-Ife",
+    "alias": "OAU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77307,6 +77351,7 @@
       "http://www.oouagoiwoye.edu.ng/"
     ],
     "name": "Olabisi Onabanjo University",
+    "alias": "OOU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77319,6 +77364,7 @@
       "http://www.osustech.edu.ng/"
     ],
     "name": "Ondo State University of Science and Technology",
+    "alias": "OSUSTECH",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77379,6 +77425,7 @@
       "http://www.rnu.edu.ng/"
     ],
     "name": "Renaissance University",
+    "alias": "RNU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77415,6 +77462,7 @@
       "http://www.ssu.edu.ng/"
     ],
     "name": "Sokoto State University",
+    "alias": "SSU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77439,6 +77487,7 @@
       "http://www.tasued.edu.ng/"
     ],
     "name": "Tai Solarin University of Education",
+    "alias": "TASUED",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77451,6 +77500,7 @@
       "http://www.tsuniversity.edu.ng/"
     ],
     "name": "Taraba State University",
+    "alias": "TSU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77475,6 +77525,7 @@
       "http://www.udusok.edu.ng/"
     ],
     "name": "Usmanu Danfodiyo University Sokoto",
+    "alias": "UDUSOK",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77487,6 +77538,7 @@
       "http://www.ui.edu.ng/"
     ],
     "name": "University of Ibadan",
+    "alias": "UI",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77499,6 +77551,7 @@
       "http://www.umyu.edu.ng/"
     ],
     "name": "Umaru Musa Yar'Adua University",
+    "alias": "UMYU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77511,6 +77564,7 @@
       "http://www.unaab.edu.ng/"
     ],
     "name": "University of Agriculture Abeokuta",
+    "alias": "UNAAB",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77523,6 +77577,7 @@
       "http://www.uniben.edu/"
     ],
     "name": "University of Benin",
+    "alias": "UNIBEN",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77535,6 +77590,7 @@
       "http://www.unibuja.edu.ng/"
     ],
     "name": "University of Abuja",
+    "alias": "UNIABUJA",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77547,6 +77603,7 @@
       "http://www.unical.edu.ng/"
     ],
     "name": "University of Calabar",
+    "alias": "UNICAL",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77559,6 +77616,7 @@
       "http://www.unijos.edu.ng/"
     ],
     "name": "University of Jos",
+    "alias": "UNIJOS",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77571,6 +77629,7 @@
       "http://www.unilag.edu.ng/"
     ],
     "name": "University of Lagos",
+    "alias": "UNILAG",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77583,6 +77642,7 @@
       "http://www.unilorin.edu.ng/"
     ],
     "name": "University of Ilorin",
+    "alias": "UNILORIN",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77595,6 +77655,7 @@
       "http://www.unimaid.edu.ng/"
     ],
     "name": "University of Maiduguri",
+    "alias": "UNIMAID",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77607,6 +77668,7 @@
       "http://www.unimkar.edu.ng/"
     ],
     "name": "University of Mkar",
+    "alias": "UNIMKAR",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77619,6 +77681,7 @@
       "http://www.uniosun.edu.ng/"
     ],
     "name": "Osun State University",
+    "alias": "UNIOSUN",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77631,6 +77694,7 @@
       "http://www.uniport.edu.ng/"
     ],
     "name": "University of Portharcourt",
+    "alias": "UNIPORT",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77643,6 +77707,7 @@
       "http://www.uniuyo.edu.ng/"
     ],
     "name": "University of Uyo",
+    "alias": "UNIUYO",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77655,6 +77720,7 @@
       "http://www.unizik.edu.ng/"
     ],
     "name": "Nnamdi Azikiwe University",
+    "alias": "NAU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77667,6 +77733,7 @@
       "http://www.unn.edu.ng/"
     ],
     "name": "University of Nigeria",
+    "alias": "UNN",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77679,6 +77746,7 @@
       "http://www.ust.edu.ng/"
     ],
     "name": "Rivers State University of Science and Technology",
+    "alias": "UST",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77703,6 +77771,7 @@
       "http://www.wdu.edu.ng/"
     ],
     "name": "Western Delta University",
+    "alias": "WDU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
@@ -77739,6 +77808,7 @@
       "http://www.yabatech.edu.ng/"
     ],
     "name": "Yaba College of Technology",
+    "alias": "YABATECH",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
