@@ -24,7 +24,8 @@ const getUniversitiesByCountry = {
     handler: async (request, response) => {
         let { country, index, number } = request.payload, value = []
         if (universitiesData) {
-            const newUni = universitiesData.filter(uData => uData.country.toLowerCase().startsWith(country.toLowerCase()))
+            const newUni = universitiesData.filter(uData => uData.country.toLowerCase().startsWith(country.toLowerCase()) || 
+            (uData.alpha_two_code ? uData.alpha_two_code.toLowerCase().includes(country.toLowerCase()) : ''))
             value = newUni.slice(index, (index + number))
         }
         return value
