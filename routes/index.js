@@ -13,7 +13,7 @@ const getUniversitiesByName = {
         if (universitiesData) {
             // const newUni = universitiesData.filter(uData => uData.name.startsWith(name))
             const newUni = universitiesData.filter(uData => uData.name.toLowerCase().includes(name.toLowerCase()) || 
-                                                                uData.alias.toLowerCase().includes(name.toLowerCase()))
+            (uData.alias ? uData.alias.toLowerCase().includes(name.toLowerCase()) : ''))
             value = newUni.slice(index, (index + number))
         }
         return value
