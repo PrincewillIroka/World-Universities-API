@@ -4,16 +4,16 @@ It's hosted at https://world-universities-api.herokuapp.com/
 
 ## Usage
 ### API Endpoints
-  - POST /getUniversitiesByName 
-    **Note:** Pass these parameters to this route:
-    1.) name: (String) e.g Harvard
-    2.) index: (int) e.g 0
-    3.) number: (int) e.g 10
+  - POST /getUniversitiesByName \
+    **Note:** Pass these parameters to this route: \
+    1.) name: (String) e.g Harvard \
+    2.) index: (int) e.g 0 \
+    3.) number: (int) e.g 10 \
     
-  - POST /getUniversitiesByCountry 
-    **Note:** Pass these parameters to this route:
-    1.) name: (String) e.g Nigeria
-    2.) index: (int) e.g 0
+  - POST /getUniversitiesByCountry \
+    **Note:** Pass these parameters to this route: \
+    1.) name: (String) e.g Nigeria \
+    2.) index: (int) e.g 0 \
     3.) number: (int) e.g 15
   
 
