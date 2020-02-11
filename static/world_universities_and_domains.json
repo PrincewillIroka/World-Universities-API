@@ -13,9 +13,9 @@
   },
   {
     "web_pages": [
-      "http://www.cstj.qc.ca",
-      "http://ccmt.cstj.qc.ca",
-      "http://ccml.cstj.qc.ca"
+      "https://www.cstj.qc.ca",
+      "https://ccmt.cstj.qc.ca",
+      "https://ccml.cstj.qc.ca"
     ],
     "name": "Cégep de Saint-Jérôme",
     "alpha_two_code": "CA",
@@ -27,7 +27,7 @@
   },
   {
     "web_pages": [
-      "http://www.lindenwood.edu/"
+      "https://www.lindenwood.edu/"
     ],
     "name": "Lindenwood University",
     "alpha_two_code": "US",
@@ -39,7 +39,7 @@
   },
   {
     "web_pages": [
-      "http://www.davietjal.org/"
+      "https://www.davietjal.org/"
     ],
     "name": "DAV Institute of Engineering & Technology",
     "alpha_two_code": "IN",
@@ -51,7 +51,7 @@
   },
   {
     "web_pages": [
-      "http://www.lpu.in/"
+      "https://www.lpu.in/"
     ],
     "name": "Lovely Professional University",
     "alpha_two_code": "IN",
@@ -63,7 +63,7 @@
   },
   {
     "web_pages": [
-      "http://sullivan.edu/"
+      "https://sullivan.edu/"
     ],
     "name": "Sullivan University",
     "alpha_two_code": "US",
@@ -75,7 +75,7 @@
   },
   {
     "web_pages": [
-      "http://www.fscj.edu/"
+      "https://www.fscj.edu/"
     ],
     "name": "Florida State College at Jacksonville",
     "alpha_two_code": "US",
@@ -87,7 +87,7 @@
   },
   {
     "web_pages": [
-      "http://www.xavier.edu/"
+      "https://www.xavier.edu/"
     ],
     "name": "Xavier University",
     "alpha_two_code": "US",
@@ -99,7 +99,7 @@
   },
   {
     "web_pages": [
-      "http://home.tusculum.edu/"
+      "https://home.tusculum.edu/"
     ],
     "name": "Tusculum College",
     "alpha_two_code": "US",
@@ -111,7 +111,7 @@
   },
   {
     "web_pages": [
-      "http://cst.edu/"
+      "https://cst.edu/"
     ],
     "name": "Claremont School of Theology",
     "alpha_two_code": "US",
@@ -123,7 +123,7 @@
   },
   {
     "web_pages": [
-      "http://somaiya.edu/"
+      "https://somaiya.edu/"
     ],
     "name": "Somaiya Vidyavihar",
     "alpha_two_code": "IN",
@@ -135,7 +135,7 @@
   },
   {
     "web_pages": [
-      "http://www.columbiasc.edu/"
+      "https://www.columbiasc.edu/"
     ],
     "name": "Columbia College (SC)",
     "alpha_two_code": "US",
@@ -159,7 +159,7 @@
   },
   {
     "web_pages": [
-      "http://www.keller.edu/"
+      "https://www.keller.edu/"
     ],
     "name": "Keller Graduate School of Management",
     "alpha_two_code": "US",
@@ -171,7 +171,7 @@
   },
   {
     "web_pages": [
-      "http://monroecollege.edu/"
+      "https://monroecollege.edu/"
     ],
     "name": "Monroe College",
     "alpha_two_code": "US",
@@ -183,7 +183,7 @@
   },
   {
     "web_pages": [
-      "http://smccd.edu/"
+      "https://smccd.edu/"
     ],
     "name": "San Mateo County Community College District",
     "alpha_two_code": "US",
@@ -195,7 +195,7 @@
   },
   {
     "web_pages": [
-      "http://losrios.edu/"
+      "https://losrios.edu/"
     ],
     "name": "Los Rios Community College District",
     "alpha_two_code": "US",
@@ -207,7 +207,7 @@
   },
   {
     "web_pages": [
-      "http://www.digipen.edu/"
+      "https://www.digipen.edu/"
     ],
     "name": "DigiPen Institute of Technology",
     "alpha_two_code": "US",
@@ -219,7 +219,7 @@
   },
   {
     "web_pages": [
-      "http://www.upmc.com/"
+      "https://www.upmc.com/"
     ],
     "name": "University of Pittsburgh Medical Center",
     "alpha_two_code": "US",
@@ -232,7 +232,7 @@
   },
   {
     "web_pages": [
-      "http://www.cgu.edu/"
+      "https://www.cgu.edu/"
     ],
     "name": "Claremont Graduate University",
     "alpha_two_code": "US",
@@ -244,7 +244,7 @@
   },
   {
     "web_pages": [
-      "http://www.utrgv.edu/"
+      "https://www.utrgv.edu/"
     ],
     "name": "University of Texas Rio Grande Valley",
     "alpha_two_code": "US",
@@ -256,7 +256,7 @@
   },
   {
     "web_pages": [
-      "http://mountsaintvincent.edu/"
+      "https://mountsaintvincent.edu/"
     ],
     "name": "College of Mount Saint Vincent",
     "alpha_two_code": "US",
@@ -268,7 +268,7 @@
   },
   {
     "web_pages": [
-      "http://www.uasys.edu/"
+      "https://www.uasys.edu/"
     ],
     "name": "University of Arkansas System eVersity",
     "alpha_two_code": "US",
@@ -280,7 +280,7 @@
   },
   {
     "web_pages": [
-      "http://www.ecpi.edu/"
+      "https://www.ecpi.edu/"
     ],
     "name": "ECPI University",
     "alpha_two_code": "US",
@@ -292,7 +292,7 @@
   },
   {
     "web_pages": [
-      "http://www.umw.edu/"
+      "https://www.umw.edu/"
     ],
     "name": "University of Mary Washington",
     "alpha_two_code": "US",
@@ -304,7 +304,7 @@
   },
   {
     "web_pages": [
-      "http://www.bw.edu/"
+      "https://www.bw.edu/"
     ],
     "name": "Baldwin Wallace University",
     "alpha_two_code": "US",
@@ -316,7 +316,7 @@
   },
   {
     "web_pages": [
-      "http://www.csuci.edu/"
+      "https://www.csuci.edu/"
     ],
     "name": "California State University Channel Islands",
     "alpha_two_code": "US",
@@ -328,7 +328,7 @@
   },
   {
     "web_pages": [
-      "http://www.brandman.edu/"
+      "https://www.brandman.edu/"
     ],
     "name": "Brandman University",
     "alpha_two_code": "US",
@@ -340,7 +340,7 @@
   },
   {
     "web_pages": [
-      "http://www.uscga.edu/"
+      "https://www.uscga.edu/"
     ],
     "name": "United States Coast Guard Academy",
     "alpha_two_code": "US",
@@ -352,7 +352,7 @@
   },
   {
     "web_pages": [
-      "http://www.athens.edu/"
+      "https://www.athens.edu/"
     ],
     "name": "Athens State University",
     "alpha_two_code": "US",
@@ -364,7 +364,7 @@
   },
   {
     "web_pages": [
-      "http://scripps.edu/"
+      "https://scripps.edu/"
     ],
     "name": "The Scripps Research Institute",
     "alpha_two_code": "US",
@@ -376,7 +376,7 @@
   },
   {
     "web_pages": [
-      "http://www.easternflorida.edu/"
+      "https://www.easternflorida.edu/"
     ],
     "name": "Eastern Florida State College",
     "alpha_two_code": "US",
@@ -388,7 +388,7 @@
   },
   {
     "web_pages": [
-      "http://www1.wne.edu/"
+      "https://www1.wne.edu/"
     ],
     "name": "Western New England University",
     "alpha_two_code": "US",
@@ -412,7 +412,7 @@
   },
   {
     "web_pages": [
-      "http://ggc.edu/"
+      "https://ggc.edu/"
     ],
     "name": "Georgia Gwinnett College",
     "alpha_two_code": "US",
@@ -424,7 +424,7 @@
   },
   {
     "web_pages": [
-      "http://www.trident.edu/"
+      "https://www.trident.edu/"
     ],
     "name": "Trident University",
     "alpha_two_code": "US",
