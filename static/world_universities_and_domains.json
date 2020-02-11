@@ -76404,7 +76404,7 @@
   },
   {
     "web_pages": [
-      "https://abiastateuniversity.edu.ng/"
+      "https://portal.abiastateuniversity.edu.ng/"
     ],
     "name": "Abia State University",
     "alias": "ABSU",
@@ -76443,7 +76443,7 @@
   },
   {
     "web_pages": [
-      "https://www.aceondo-ng.com/"
+      "https://aceondo.edu.ng/"
     ],
     "name": "Adeyemi College of Education",
     "alpha_two_code": "NG",
@@ -76581,7 +76581,7 @@
   },
   {
     "web_pages": [
-      "https://www.aust.edu.ng/"
+      "https://aust.edu.ng/"
     ],
     "name": "African University of Science and Technology",
     "alpha_two_code": "NG",
@@ -76593,7 +76593,7 @@
   },
   {
     "web_pages": [
-      "https://www.babcockuni.edu.ng/"
+      "https://www.babcock.edu.ng/"
     ],
     "name": "Babcock University",
     "alpha_two_code": "NG",
@@ -76630,7 +76630,7 @@
   },
   {
     "web_pages": [
-      "https://www.bellsuniversity.org/"
+      "http://www.bellsuniversity.edu.ng/"
     ],
     "name": "Bells University of Technology",
     "alpha_two_code": "NG",
@@ -76642,7 +76642,7 @@
   },
   {
     "web_pages": [
-      "https://www.binghamuni.edu.ng/"
+      "http://binghamuni.edu.ng/v2/"
     ],
     "name": "Bingham University",
     "alpha_two_code": "NG",
@@ -76667,13 +76667,13 @@
   },
   {
     "web_pages": [
-      "https://bowenuniversity-edu.org/"
+      "https://bowen.edu.ng/"
     ],
     "name": "Bowen University",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "bowenuniversity-edu.org"
+      "bowen.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -76705,7 +76705,7 @@
   },
   {
     "web_pages": [
-      "https://www.calebuniversity.edu.ng/"
+      "https://calebuniversity.edu.ng/"
     ],
     "name": "Caleb University",
     "alpha_two_code": "NG",
@@ -76777,7 +76777,7 @@
   },
   {
     "web_pages": [
-      "https://crescent-university.edu.ng/"
+      "http://crescent-university.edu.ng/"
     ],
     "name": "Crescent University",
     "alpha_two_code": "NG",
@@ -76836,18 +76836,6 @@
     "state-province": null,
     "domains": [
       "esut.edu.ng"
-    ],
-    "country": "Nigeria"
-  },
-  {
-    "web_pages": [
-      "https://nce.fcet-akoka.edu.ng/portal"
-    ],
-    "name": "Federal College Of Education (Technical), Akoka",
-    "alpha_two_code": "NG",
-    "state-province": null,
-    "domains": [
-      "nce.fcet-akoka.edu.ng/portal"
     ],
     "country": "Nigeria"
   },
@@ -76930,14 +76918,14 @@
   },
   {
     "web_pages": [
-      "https://www.futy.edu.ng/"
+      "https://mautech.edu.ng/"
     ],
-    "name": "Federal University of Technology, Yola",
+    "name": "Modibbo Adama University of Technology, Yola",
     "alias": "FUTY",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "futy.edu.ng"
+      "mautech.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -76950,18 +76938,6 @@
     "state-province": null,
     "domains": [
       "gouni.edu.ng"
-    ],
-    "country": "Nigeria"
-  },
-  {
-    "web_pages": [
-      "https://www.go-uni-enugu.net/"
-    ],
-    "name": "Godfrey Okoye University",
-    "alpha_two_code": "NG",
-    "state-province": null,
-    "domains": [
-      "go-uni-enugu.net"
     ],
     "country": "Nigeria"
   },
@@ -77031,7 +77007,7 @@
   },
   {
     "web_pages": [
-      "https://www.kasuportal.net/"
+      "https://www.kasu.edu.ng/"
     ],
     "name": "Kaduna State University",
     "alias": "KASU",
