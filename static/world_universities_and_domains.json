@@ -77020,27 +77020,27 @@
   },
   {
     "web_pages": [
-      "https://www.ksuportal.edu.ng/"
+      "http://www.ksu.edu.ng/"
     ],
     "name": "Kogi State University",
     "alias": "KSU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "ksuportal.edu.ng"
+      "ksu.edu.ng"
     ],
     "country": "Nigeria"
   },
   {
     "web_pages": [
-      "https://www.ksusta.edu.ng/"
+      "http://www.ksusta.net/"
     ],
     "name": "Kebbi State University of Science and Technology",
     "alias": "KSUSTA",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "ksusta.edu.ng"
+      "ksusta.net"
     ],
     "country": "Nigeria"
   },
@@ -77072,26 +77072,26 @@
   },
   {
     "web_pages": [
-      "https://www.kwarapoly.edu.ng/"
+      "https://kwarastatepolytechnic.edu.ng/"
     ],
     "name": "Kwara State Polytecnic",
     "alias": "Kwara Poly",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "kwarapoly.edu.ng"
+      "kwarastatepolytechnic.edu.ng"
     ],
     "country": "Nigeria"
   },
   {
     "web_pages": [
-      "https://www.kwararafauniversity.edu.ng/"
+      "https://www.kuw.edu.ng/"
     ],
     "name": "Kwararafa University",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "kwararafauniversity.edu.ng"
+      "kuw.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -77123,14 +77123,14 @@
   },
   {
     "web_pages": [
-      "https://www.lasunigeria.org/"
+      "https://www.lasu.edu.ng/"
     ],
     "name": "Lagos State University",
     "alias": "LASU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "lasunigeria.org"
+      "lasu.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -77199,7 +77199,7 @@
   },
   {
     "web_pages": [
-      "https://www.mylcp.net/"
+      "http://www.mylcp.net/"
     ],
     "name": "Lagos City Polytechnic",
     "alias": "LCP",
@@ -77262,27 +77262,14 @@
   },
   {
     "web_pages": [
-      "https://www.nsuk.edu.ng/"
-    ],
-    "name": "Nasarawa State University Keffi",
-    "alias": "NSUK",
-    "alpha_two_code": "NG",
-    "state-province": null,
-    "domains": [
-      "nsuk.edu.ng"
-    ],
-    "country": "Nigeria"
-  },
-  {
-    "web_pages": [
-      "https://www.ntnu.edu.ng/"
+      "https://www.nileuniversity.edu.ng/"
     ],
     "name": "Nigerian Turkish Nile University",
     "alias": "NTNU",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "ntnu.edu.ng"
+      "nileuniversity.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -77375,7 +77362,7 @@
   },
   {
     "web_pages": [
-      "https://www.polyibadan.edu.ng/"
+      "http://www.polyibadan.edu.ng/"
     ],
     "name": "Polytechnic Ibadan",
     "alpha_two_code": "NG",
@@ -77461,7 +77448,7 @@
   },
   {
     "web_pages": [
-      "https://www.tasued.edu.ng/"
+      "https://tasued.edu.ng/"
     ],
     "name": "Tai Solarin University of Education",
     "alias": "TASUED",
@@ -77487,19 +77474,7 @@
   },
   {
     "web_pages": [
-      "https://www.uam.edu.ng/"
-    ],
-    "name": "University of Agriculture Makurdi",
-    "alpha_two_code": "NG",
-    "state-province": null,
-    "domains": [
-      "uam.edu.ng"
-    ],
-    "country": "Nigeria"
-  },
-  {
-    "web_pages": [
-      "https://www.udusok.edu.ng/"
+      "http://www.udusok.edu.ng/"
     ],
     "name": "Usmanu Danfodiyo University Sokoto",
     "alias": "UDUSOK",
@@ -77564,7 +77539,7 @@
   },
   {
     "web_pages": [
-      "https://www.unibuja.edu.ng/"
+      "http://hs.uniabuja.edu.ng/"
     ],
     "name": "University of Abuja",
     "alias": "UNIABUJA",
@@ -77629,7 +77604,7 @@
   },
   {
     "web_pages": [
-      "https://www.unimaid.edu.ng/"
+      "http://www.unimaid.edu.ng/"
     ],
     "name": "University of Maiduguri",
     "alias": "UNIMAID",
@@ -77642,14 +77617,14 @@
   },
   {
     "web_pages": [
-      "https://www.unimkar.edu.ng/"
+      "https://www.umm.edu.ng/"
     ],
     "name": "University of Mkar",
     "alias": "UNIMKAR",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "unimkar.edu.ng"
+      "umm.edu.ng"
     ],
     "country": "Nigeria"
   },
@@ -77745,7 +77720,7 @@
   },
   {
     "web_pages": [
-      "https://www.wdu.edu.ng/"
+      "http://www.wdu.edu.ng/"
     ],
     "name": "Western Delta University",
     "alias": "WDU",
@@ -77758,31 +77733,31 @@
   },
   {
     "web_pages": [
-      "https://www.wellspringuniversity.edu.ng/"
+      "https://portal.wellspringuniversity.edu.ng/"
     ],
     "name": "Wellspring University",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "wellspringuniversity.edu.ng"
+      "portal.wellspringuniversity.edu.ng"
     ],
     "country": "Nigeria"
   },
   {
     "web_pages": [
-      "https://www.wustoportal.edu.ng/"
+      "http://wesleyuni.edu.ng/"
     ],
-    "name": "Wesley University of Science and Technology",
+    "name": "Wesley University",
     "alpha_two_code": "NG",
     "state-province": null,
     "domains": [
-      "wustoportal.edu.ng"
+      "wesleyuni.edu.ng"
     ],
     "country": "Nigeria"
   },
   {
     "web_pages": [
-      "https://www.yabatech.edu.ng/"
+      "http://www.yabatech.edu.ng/"
     ],
     "name": "Yaba College of Technology",
     "alias": "YABATECH",
