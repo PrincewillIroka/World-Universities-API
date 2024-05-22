@@ -1,12 +1,15 @@
-const { pool } = require("../config");
-
 const fs = require("fs");
+const path = require("path");
+
 let universitiesData = [];
 
-fs.readFile("./static/world_universities_and_domains.json", (err, data) => {
-  if (err) throw err;
-  universitiesData = JSON.parse(data);
-});
+fs.readFile(
+  path.resolve(__dirname, "../static/world_universities_and_domains.json"),
+  (err, data) => {
+    if (err) throw err;
+    universitiesData = JSON.parse(data);
+  }
+);
 
 const suggestAUniversity = {
   handler: async (request, response) => {
@@ -14,24 +17,11 @@ const suggestAUniversity = {
     let message = "";
 
     if (name) {
-      const sqlQuery = {
-        text:
-          'INSERT INTO "suggestedUniversities" ("name", "website", "location") VALUES($1, $2, $3) RETURNING *',
-        values: [name, website, country]
-      };
-
-      await pool.query(sqlQuery, async (error, result) => {
-        if (!error) {
-          console.log(result.rows[0]);
-          message = "Suggestion Received";
-        } else {
-          console.error(error);
-        }
-      });
+      //Save suggestion to db
     }
 
     return { response: message };
-  }
+  },
 };
 
 const getUniversitiesByName = {
@@ -41,7 +31,7 @@ const getUniversitiesByName = {
     if (universitiesData) {
       // const newUni = universitiesData.filter(uData => uData.name.startsWith(name))
       const newUni = universitiesData.filter(
-        uData =>
+        (uData) =>
           uData.name.toLowerCase().includes(name.toLowerCase()) ||
           (uData.alias
             ? uData.alias.toLowerCase().includes(name.toLowerCase())
@@ -50,16 +40,31 @@ const getUniversitiesByName = {
       value = newUni.slice(index, index + number);
     }
     return value;
-  }
+  },
+};
+
+const getDefaultUniversities = {
+  handler: async (request, h) => {
+    let { index, number } = request.payload,
+      value = [];
+    if (universitiesData) {
+      // console.log({ universitiesData });
+      // const newUni = universitiesData.sort(
+      //   (a, b) => a.name.toLowerCase() < b.name.toLowerCase()
+      // );
+      // value = newUni.slice(index, index + number);
+    }
+    return h.response(value).code(200);
+  },
 };
 
 const getUniversitiesByCountry = {
-  handler: async (request, response) => {
+  handler: async (request, h) => {
     let { country, index, number } = request.payload,
       value = [];
     if (universitiesData) {
       const newUni = universitiesData.filter(
-        uData =>
+        (uData) =>
           uData.country.toLowerCase().startsWith(country.toLowerCase()) ||
           (uData.alpha_two_code
             ? uData.alpha_two_code
@@ -69,36 +74,41 @@ const getUniversitiesByCountry = {
       );
       value = newUni.slice(index, index + number);
     }
-    return value;
-  }
+    return h.response(value).code(200);
+  },
 };
 
 const getHomePage = {
   handler: async (request, response) => {
     return "Welcome to World Universities API";
-  }
+  },
 };
 
 routes = [
   {
     method: "POST",
     path: "/suggestAUniversity",
-    config: suggestAUniversity
+    config: suggestAUniversity,
+  },
+  {
+    method: "POST",
+    path: "/getDefaultUniversities",
+    config: getDefaultUniversities,
   },
   {
     method: "POST",
     path: "/getUniversitiesByName",
-    config: getUniversitiesByName
+    config: getUniversitiesByName,
   },
   {
     method: "POST",
     path: "/getUniversitiesByCountry",
-    config: getUniversitiesByCountry
+    config: getUniversitiesByCountry,
   },
   {
     method: "GET",
     path: "/",
-    config: getHomePage
-  }
+    config: getHomePage,
+  },
 ];
 module.exports = routes;
