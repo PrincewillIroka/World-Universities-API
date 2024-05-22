@@ -17,6 +17,7 @@
     "mongoose": "^8.4.0"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.7",
     "nodemon": "^2.0.1"
   }
 }

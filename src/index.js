@@ -9,7 +9,7 @@ const { NODE_ENV, APP_HOST, APP_PORT } = process.env;
 
 const server = hapi.server({
   port: APP_PORT,
-  host: NODE_ENV == "development" ? ip.address() : APP_HOST,
+  host: ip.address(),
   routes: {
     cors: {
       origin: ["*"],
