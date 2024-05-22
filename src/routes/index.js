@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const University = require("../models/University");
 
 let universitiesData = [];
 
@@ -25,62 +26,68 @@ const suggestAUniversity = {
 };
 
 const getUniversitiesByName = {
-  handler: async (request, response) => {
-    let { name, index, number } = request.payload,
-      value = [];
-    if (universitiesData) {
-      // const newUni = universitiesData.filter(uData => uData.name.startsWith(name))
-      const newUni = universitiesData.filter(
-        (uData) =>
-          uData.name.toLowerCase().includes(name.toLowerCase()) ||
-          (uData.alias
-            ? uData.alias.toLowerCase().includes(name.toLowerCase())
-            : "")
-      );
-      value = newUni.slice(index, index + number);
+  handler: async (request, h) => {
+    try {
+      const { name, skip, limit } = request.payload;
+      const universities = await University.find({
+        name: new RegExp(name, "i"),
+      })
+        .sort({ name: 1 })
+        .skip(skip)
+        .limit(limit)
+        .lean();
+      return h.response(universities).code(200);
+    } catch (error) {
+      console.error(error);
+      return h.response("Oops something went wrong!").code(500);
     }
-    return value;
   },
 };
 
 const getDefaultUniversities = {
   handler: async (request, h) => {
-    let { index, number } = request.payload,
-      value = [];
-    if (universitiesData) {
-      // console.log({ universitiesData });
-      // const newUni = universitiesData.sort(
-      //   (a, b) => a.name.toLowerCase() < b.name.toLowerCase()
-      // );
-      // value = newUni.slice(index, index + number);
+    try {
+      const { skip, limit } = request.payload;
+      const universities = await University.find({})
+        .sort({ name: 1 })
+        .skip(skip)
+        .limit(limit)
+        .lean();
+      return h.response(universities).code(200);
+    } catch (error) {
+      console.error(error);
+      return h.response("Oops something went wrong!").code(500);
     }
-    return h.response(value).code(200);
   },
 };
 
 const getUniversitiesByCountry = {
   handler: async (request, h) => {
-    let { country, index, number } = request.payload,
-      value = [];
-    if (universitiesData) {
-      const newUni = universitiesData.filter(
-        (uData) =>
-          uData.country.toLowerCase().startsWith(country.toLowerCase()) ||
-          (uData.alpha_two_code
-            ? uData.alpha_two_code
-                .toLowerCase()
-                .startsWith(country.toLowerCase())
-            : "")
-      );
-      value = newUni.slice(index, index + number);
+    try {
+      let { country, skip, limit } = request.payload;
+      // country = country.replace(/^./, (str) => str.toUpperCase());
+      const universities = await University.find({
+        $or: [
+          {
+            country: new RegExp(country, "i"),
+          },
+          { alpha_two_code: country.toUpperCase() },
+        ],
+      })
+        .skip(skip)
+        .limit(limit)
+        .lean();
+      return h.response(universities).code(200);
+    } catch (error) {
+      console.error(error);
+      return h.response("Oops something went wrong!").code(500);
     }
-    return h.response(value).code(200);
   },
 };
 
 const getHomePage = {
-  handler: async (request, response) => {
-    return "Welcome to World Universities API";
+  handler: async (request, h) => {
+    return h.response("Welcome to World Universities API").code(200);
   },
 };
 
