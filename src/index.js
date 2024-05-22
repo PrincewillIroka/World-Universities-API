@@ -1,6 +1,7 @@
 const hapi = require("@hapi/hapi");
 const ip = require("ip");
 const routes = require("./routes");
+const db = require("./db");
 
 require("dotenv").config();
 
@@ -25,6 +26,8 @@ const init = async () => {
   await server.start();
 
   console.log(`Server is running at ${server.info.uri}`);
+
+  db.connect();
 
   server.route(routes);
 
