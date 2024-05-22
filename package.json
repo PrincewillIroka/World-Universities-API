@@ -4,7 +4,9 @@
   "description": "API for All Universities Mobile App",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index",
+    "start": "export $(xargs < .env) && node dist/index.js",
+    "build": "rm -rf dist tmp && mkdir dist && npm i -g @babel/cli @babel/core && babel src -s -d dist",
+    "ci-build": "rm -rf dist tmp && mkdir dist && npm i @babel/cli @babel/core && babel src -s -d dist",
     "dev": "nodemon ./src/index"
   },
   "repository": "https://github.com/PrincewillIroka/AllUniversitiesAPI.git",

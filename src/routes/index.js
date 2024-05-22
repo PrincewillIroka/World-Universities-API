@@ -1,16 +1,4 @@
-const fs = require("fs");
-const path = require("path");
 const University = require("../models/University");
-
-let universitiesData = [];
-
-fs.readFile(
-  path.resolve(__dirname, "../static/world_universities_and_domains.json"),
-  (err, data) => {
-    if (err) throw err;
-    universitiesData = JSON.parse(data);
-  }
-);
 
 const suggestAUniversity = {
   handler: async (request, response) => {
