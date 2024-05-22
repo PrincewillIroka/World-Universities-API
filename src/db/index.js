@@ -2,7 +2,6 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 
 const { DB_CONNECTION } = process.env;
-console.log({ DB_CONNECTION });
 
 function connect() {
   try {
