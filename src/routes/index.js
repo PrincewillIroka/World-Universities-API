@@ -87,22 +87,22 @@ routes = [
   },
   {
     method: "POST",
-    path: "/getDefaultUniversities",
+    path: "/api/getDefaultUniversities",
     config: getDefaultUniversities,
   },
   {
     method: "POST",
-    path: "/getUniversitiesByName",
+    path: "/api/getUniversitiesByName",
     config: getUniversitiesByName,
   },
   {
     method: "POST",
-    path: "/getUniversitiesByCountry",
+    path: "/api/getUniversitiesByCountry",
     config: getUniversitiesByCountry,
   },
   {
     method: "GET",
-    path: "/",
+    path: "/api/health",
     config: getHomePage,
   },
 ];
